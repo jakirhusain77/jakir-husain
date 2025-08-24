@@ -1,7 +1,9 @@
 import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
 import AboutSection from '../components/AboutSection';
+import SkillsGrid from '../components/SkillsGrid';
 import SkillsSection from '../components/SkillsSection';
+import ExperienceSection from '../components/ExperienceSection';
 import ContactSection from '../components/ContactSection';
 
 const Index = () => {
@@ -11,7 +13,9 @@ const Index = () => {
       <main>
         <HeroSection />
         <AboutSection />
+        <SkillsGrid />
         <SkillsSection />
+        <ExperienceSection />
         <ContactSection />
       </main>
       
