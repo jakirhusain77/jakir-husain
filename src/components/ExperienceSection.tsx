@@ -5,45 +5,46 @@ import { CalendarDays, MapPin, ExternalLink } from 'lucide-react';
 const ExperienceSection = () => {
   const experiences = [
     {
-      company: 'PeopleGrove',
-      position: 'Software Engineer II',
-      duration: '2023 - Present',
+      company: 'LawSikho',
+      position: 'Software Development Engineer 2',
+      duration: 'May 2023 - Present',
       location: 'Remote',
-      website: 'https://peoplegrove.com',
-      description: 'Building scalable web applications that connect students with life-changing opportunities. Leading frontend architecture decisions and mentoring junior developers.',
-      technologies: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'AWS'],
+      website: 'https://lawsikho.com',
+      description: 'Led the full development lifecycle of the Learning Management system using the Agile methodology.',
+      technologies: ['PHP', 'Laravel', 'Vue.js', 'Redis', 'MySQL', 'Sentry', 'New Relic'],
       achievements: [
-        'Increased user engagement by 40% through UI/UX improvements',
-        'Reduced page load times by 60% through performance optimizations',
-        'Led migration from legacy codebase to modern React architecture'
+        'Optimized APIs and reduced response time from 10 seconds to 2 seconds by eliminating duplicate queries',
+        'Rebuilt Student Assignment Portal APIs, driving revenue growth from 100K to 1 million',
+        'Improved database performance by 48% and increased data storage efficiency by 36%',
+        'Integrated Redis caching to optimize response times and reduce system memory usage'
       ]
     },
     {
-      company: 'TechCorp Solutions',
-      position: 'Full Stack Developer',
-      duration: '2021 - 2023',
-      location: 'San Francisco, CA',
-      website: 'https://techcorp.com',
-      description: 'Developed and maintained multiple client projects ranging from e-commerce platforms to enterprise applications.',
-      technologies: ['Vue.js', 'Python', 'Django', 'MySQL', 'Docker'],
+      company: 'Dealshare',
+      position: 'Software Development Engineer 1',
+      duration: 'Dec 2021 - Mar 2023',
+      location: 'Jaipur, Rajasthan',
+      website: 'https://www.dealshare.in',
+      description: 'Part of Supply Chain Management team, worked on Post-order ETA calculation for an order, routing orders to delivery partners.',
+      technologies: ['Yii2', 'Angular', 'Vue.js', 'MySQL', 'REST APIs'],
       achievements: [
-        'Delivered 15+ projects on time and within budget',
-        'Implemented automated testing reducing bugs by 50%',
-        'Mentored 3 junior developers in best practices'
+        'Implemented BTS restrictions on IMS and DSD panels',
+        'Increased order status marking accuracy from 30% to 90%',
+        'Significantly reduced fraud cases through improved tracking systems'
       ]
     },
     {
-      company: 'StartupXYZ',
-      position: 'Frontend Developer',
-      duration: '2020 - 2021',
-      location: 'New York, NY',
-      website: 'https://startupxyz.com',
-      description: 'Built responsive web applications from the ground up. Collaborated closely with designers and product managers.',
-      technologies: ['React', 'JavaScript', 'SASS', 'Firebase'],
+      company: 'Softvolt IT Solutions',
+      position: 'Software Developer',
+      duration: 'Mar 2020 - Dec 2020',
+      location: 'Jaipur, Rajasthan',
+      website: '#',
+      description: 'Implemented role-based admin panel features using Laravel Blade and secured REST API endpoints.',
+      technologies: ['PHP', 'Laravel', 'Laravel Blade', 'MySQL', 'REST APIs'],
       achievements: [
-        'Built company\'s first mobile-responsive application',
-        'Reduced development time by 30% through reusable components',
-        'Achieved 95+ Google Lighthouse performance scores'
+        'Developed robust RESTful APIs with PHP',
+        'Implemented role-based admin panel features',
+        'Secured REST API endpoints for enhanced security'
       ]
     }
   ];

@@ -3,28 +3,28 @@ import { Badge } from '@/components/ui/badge';
 const SkillsGrid = () => {
   const skillCategories = [
     {
-      category: 'Frontend',
-      skills: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS', 'JavaScript', 'HTML5', 'CSS3', 'Vue.js']
+      category: 'Languages',
+      skills: ['PHP', 'JavaScript', 'SQL', 'HTML5', 'CSS3']
     },
     {
-      category: 'Backend',
-      skills: ['Node.js', 'Python', 'Express.js', 'Django', 'REST APIs', 'GraphQL', 'Microservices']
+      category: 'Backend Frameworks',
+      skills: ['Laravel', 'Yii2', 'Core PHP', 'REST APIs', 'Microservices']
     },
     {
-      category: 'Database',
-      skills: ['PostgreSQL', 'MongoDB', 'Redis', 'MySQL', 'Prisma', 'Supabase', 'Firebase']
+      category: 'Frontend Frameworks',
+      skills: ['Vue.js', 'Angular', 'jQuery', 'Bootstrap', 'AJAX']
     },
     {
-      category: 'DevOps & Tools',
-      skills: ['Docker', 'AWS', 'Git', 'GitHub Actions', 'Vercel', 'Linux', 'CI/CD']
+      category: 'Databases',
+      skills: ['MySQL', 'PostgreSQL', 'Redis']
     },
     {
-      category: 'Mobile',
-      skills: ['React Native', 'Flutter', 'Kotlin', 'Swift', 'Expo']
+      category: 'Tools & Technologies',
+      skills: ['Git', 'MVC', 'Jira', 'Unit Testing', 'AWS', 'RabbitMQ']
     },
     {
       category: 'Other',
-      skills: ['Machine Learning', 'Data Analysis', 'UI/UX Design', 'Agile', 'Scrum']
+      skills: ['Cursor AI', 'MCP Server', 'Agile', 'Sentry', 'New Relic']
     }
   ];
 

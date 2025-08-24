@@ -9,7 +9,7 @@ const ContactSection = () => {
       title: 'Email',
       description: 'Drop me a line anytime',
       action: 'Send Email',
-      href: 'mailto:contact@example.com',
+      href: 'mailto:jakir.deshwali@gmail.com',
       color: 'text-red-600'
     },
     {
@@ -17,15 +17,15 @@ const ContactSection = () => {
       title: 'WhatsApp',
       description: 'Quick chat or questions',
       action: 'Message Me',
-      href: 'https://wa.me/1234567890',
+      href: 'https://wa.me/919667403717',
       color: 'text-green-600'
     },
     {
       icon: Phone,
       title: 'Schedule Call',
       description: 'Let\'s discuss your project',
-      action: 'Book Call',
-      href: '#',
+      action: 'Call Me',
+      href: 'tel:+919667403717',
       color: 'text-blue-600'
     }
   ];
@@ -77,13 +77,13 @@ const ContactSection = () => {
           </p>
           <div className="flex justify-center space-x-4">
             <Button variant="outline" size="sm" asChild>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/jakir-husain-306525143/" target="_blank" rel="noopener noreferrer">
                 LinkedIn
               </a>
             </Button>
             <Button variant="outline" size="sm" asChild>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                Twitter
+              <a href="mailto:jakir.deshwali@gmail.com" target="_blank" rel="noopener noreferrer">
+                Email
               </a>
             </Button>  
             <Button variant="outline" size="sm" asChild>

@@ -7,13 +7,13 @@ const HeroSection = () => {
     { 
       icon: Mail, 
       label: 'Email', 
-      href: 'mailto:contact@example.com',
+      href: 'mailto:jakir.deshwali@gmail.com',
       color: 'bg-red-600 hover:bg-red-700'
     },
     { 
       icon: Linkedin, 
       label: 'LinkedIn', 
-      href: 'https://linkedin.com',
+      href: 'https://www.linkedin.com/in/jakir-husain-306525143/',
       color: 'bg-blue-700 hover:bg-blue-800'
     },
     { 
@@ -35,22 +35,22 @@ const HeroSection = () => {
       <div className="max-w-4xl mx-auto text-center animate-fade-in">
         <div className="mb-8">
           <Badge variant="secondary" className="mb-4 px-4 py-2 text-sm">
-            Software Engineer at TechCorp
+            Software Development Engineer 2 at LawSikho
           </Badge>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
             Hi! I'm{' '}
             <span className="bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
-              Your Name
+              Jakir Husain
             </span>
           </h1>
           
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Building digital experiences that <span className="text-accent font-semibold">matter</span>.
+            Building scalable web applications with <span className="text-accent font-semibold">PHP, Laravel & Vue.js</span>.
           </p>
           
           <p className="text-lg text-muted-foreground mb-12">
-            With code that speaks for itself. ✨
+            5 years of experience in full-stack development. ✨
           </p>
         </div>
 
@@ -79,11 +79,11 @@ const HeroSection = () => {
         {/* Main Tagline */}
         <div className="text-center">
           <h2 className="text-3xl md:text-5xl font-bold mb-6 leading-tight text-primary">
-            Building digital experiences that{' '}
-            <span className="text-accent">matter.</span>
+            Crafting digital solutions with{' '}
+            <span className="text-accent">expertise & passion.</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            With code that speaks for itself. ✨
+            Transforming ideas into scalable web applications. 🚀
           </p>
         </div>
       </div>

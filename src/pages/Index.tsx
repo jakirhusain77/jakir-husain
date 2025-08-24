@@ -4,6 +4,7 @@ import AboutSection from '../components/AboutSection';
 import SkillsGrid from '../components/SkillsGrid';
 import SkillsSection from '../components/SkillsSection';
 import ExperienceSection from '../components/ExperienceSection';
+import ProjectsSection from '../components/ProjectsSection';
 import ContactSection from '../components/ContactSection';
 
 const Index = () => {
@@ -16,6 +17,7 @@ const Index = () => {
         <SkillsGrid />
         <SkillsSection />
         <ExperienceSection />
+        <ProjectsSection />
         <ContactSection />
       </main>
       
@@ -23,7 +25,7 @@ const Index = () => {
       <footer className="bg-primary text-primary-foreground py-8">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <p className="text-sm opacity-80">
-            © 2024 Your Name. All rights reserved. Built with passion and React.
+            © 2024 Jakir Husain. All rights reserved. Built with passion and React.
           </p>
         </div>
       </footer>
