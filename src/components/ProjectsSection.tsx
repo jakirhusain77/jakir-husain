@@ -7,7 +7,7 @@ const ProjectsSection = () => {
     {
       title: 'Lawsikho.com',
       company: 'LawSikho',
-      duration: 'Feb 2024 - Dec 2025',
+      duration: 'Feb 2024 - Dec 2024',
       website: 'https://lawsikho.com/',
       description: 'LawSikho occupies the leadership space in e-learning system. Developed and maintained core backend modules using Laravel, including student enrollment, course management, and quiz handling.',
       technologies: ['Laravel', 'Laravel Blade', 'MySQL', 'Razorpay API'],
