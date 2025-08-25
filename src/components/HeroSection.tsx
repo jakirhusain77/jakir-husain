@@ -25,7 +25,7 @@ const HeroSection = () => {
     { 
       icon: FileText, 
       label: 'Resume', 
-      href: '#',
+      href: '/resume.pdf', // Update this path to match your resume file
       color: 'bg-green-600 hover:bg-green-700'
     }
   ];
@@ -65,8 +65,9 @@ const HeroSection = () => {
             >
               <a 
                 href={link.href} 
-                target="_blank" 
-                rel="noopener noreferrer"
+                target={link.label === 'Resume' ? undefined : "_blank"}
+                rel={link.label === 'Resume' ? undefined : "noopener noreferrer"}
+                download={link.label === 'Resume' ? true : undefined}
                 className="flex items-center gap-2"
               >
                 <link.icon size={16} />
