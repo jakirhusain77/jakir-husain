@@ -12,7 +12,7 @@ const SkillsGrid = () => {
     },
     {
       category: 'Frontend Frameworks',
-      skills: ['Vue.js', 'Angular', 'jQuery', 'Bootstrap', 'AJAX']
+      skills: ['Vue.js', 'React.Js', 'jQuery', 'Bootstrap', 'AJAX']
     },
     {
       category: 'Databases',
