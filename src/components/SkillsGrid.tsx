@@ -4,7 +4,7 @@ const SkillsGrid = () => {
   const skillCategories = [
     {
       category: 'Languages',
-      skills: ['PHP', 'JavaScript', 'SQL', 'HTML5', 'CSS3']
+      skills: ['PHP', 'JavaScript', 'python', 'SQL', 'HTML5', 'CSS3']
     },
     {
       category: 'Backend Frameworks',
