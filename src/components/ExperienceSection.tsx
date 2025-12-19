@@ -36,7 +36,7 @@ const ExperienceSection = () => {
     {
       company: 'Softvolt IT Solutions',
       position: 'Software Developer',
-      duration: 'Mar 2020 - Nov 2021',
+      duration: 'Nov 2020 - Nov 2021',
       location: 'Jaipur, Rajasthan',
       website: '#',
       description: 'Implemented role-based admin panel features using Laravel Blade and secured REST API endpoints.',

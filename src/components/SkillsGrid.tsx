@@ -8,7 +8,7 @@ const SkillsGrid = () => {
     },
     {
       category: 'Backend Frameworks',
-      skills: ['Laravel', 'CodeIgniter', 'REST APIs', 'Microservices']
+      skills: ['Laravel', 'Yii2', 'CodeIgniter', 'REST APIs', 'Microservices']
     },
     {
       category: 'Frontend Frameworks',
